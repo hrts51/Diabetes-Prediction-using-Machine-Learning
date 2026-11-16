@@ -1,0 +1,10 @@
+{
+  "Logistic Regression": 0.662323,
+  "Random Forest": 0.4763,
+  "XGBoost": 0.236899,
+  "LightGBM": 0.274596,
+  "SVM (Linear)": 0.602677,
+  "Tuned XGBoost": 0.269229,
+  "Tuned LightGBM": 0.243275,
+  "Stacking Ensemble": 0.4
+}

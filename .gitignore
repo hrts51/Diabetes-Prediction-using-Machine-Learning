@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large model files (too big for GitHub)
+outputs/models/*.pkl
+
+# Keep these model support files
+!outputs/models/feature_names.json
+!outputs/models/thresholds.json
+!outputs/models/results_default.csv
+!outputs/models/results_tuned.csv
+
+# Data — raw CSV is large (22MB), keep it gitignored
+# Download instructions are in README
+data/diabetes_binary_health_indicators_BRFSS2015.csv
+data/diabetes_012_health_indicators_BRFSS2015.csv
+data/diabetes_binary_5050split_health_indicators_BRFSS2015.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit cache
+.streamlit/
+
+# Environment variables
+.env
+.env.local
